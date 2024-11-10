@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="images/Ellipse 1.svg" alt="" class="ellipse1">
+    <img src="images/Ellipse 2.svg" alt="" class="ellipse2">
+
+        <div class="header transparent header-scrolled">
+            <div class="container">
+                <div class="logo">
+                    <a href="#start">KRYPTO</a>
+                </div>
+                <div class="link">
+                    <a href="#home">Home</a>
+                    <a href="#news">News</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#about">About</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-header transparent header-scrolled">
+            <div class="container">
+                <a href="#start" id="start">KRYPTO</a>
+                <button class="menu-button">☰</button>
+            </div>
+        </div>
+        <div class="mobile-link">
+            <a href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </div>
+
+        <div class="first-hero container">
+            <div class="left-hero">
+                <h1>Discover And <br>Collect Rare <br>NFTs</h1>
+                <p>The most secure marketplace for buying <br>and selling unique crypto assets.</p>
+                <button class="buy">BUY NFTS</button>
+                <button class="sell">SELL NFTS</button>
+            </div>
+            <div class="right-hero">
+                <img src="images/Other 07.png" alt="">
+            </div>
+        </div>
+
+        <div class="slider">
+            <h2 class="featured container">FEATURED ON</h2>
+            <div class="slide-box">
+                <div class="slide-images">
+                    <img src="images/Group 33.svg" alt="">
+                </div>
+                <div class="slide-images">
+                    <img src="images/Group 33.svg" alt="">
+                </div>
+                <div class="slide-images">
+                    <img src="images/Group 33.svg" alt="">
+                </div>
+                <div class="slide-images">
+                    <img src="images/Group 33.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="second-hero container">
+            <div class="left-hero2">
+                <img src="images/Other 18.png" alt="">
+            </div>
+            <div class="right-hero2">
+                <h1>Built-In Analytics <br>To Track Your Nfts</h1>
+                <p>Use our built-in analytics dashboard to pull valuable insights and <br>monitor the value of your Krypto portfolio over time.</p>
+                <button class="buy-more">BUY MORE NFTS</button>
+            </div>
+        </div>
+
+        <div class="reviews container">
+            <h2 class="testimonials">TESTIMONIALS</h2>
+            <h1 class="read">Read What Others <br>Have To Say</h1>
+            <div class="comment-slider">
+                <div class="comment-box">
+                    <img src="images/Mask group.png" alt="">
+                    <h2 class="name">OLIVIA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                </div>
+                <div class="comment-box">
+                    <img src="images/Mask group.png" alt="">
+                    <h2 class="name">OLIVIA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                </div>
+                <div class="comment-box">
+                    <img src="images/Mask group.png" alt="">
+                    <h2 class="name">OLIVIA</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ullamcorper scelerisque mi, in malesuada felis malesuada vel. </p>
+                </div>
+            </div>
+            <button class="pop" onClick="togglePopup()">POPUP</button>
+        </div>
+
+        <div class="rectangle container">
+            <p>Sign Up</p>
+            <div class="input-row">
+                <form id="my-form">
+                <input type="text" class="form-input" id="email" placeholder="Email" required>
+                <input type="password" class="form-input" id="password" placeholder="Password" required>
+            </div>
+            <input type="text" class="message" id="comment" placeholder="Your comment...">
+            <button type="submit" id ="submit-form" class="submit">SUBMIT</button>
+            </form>
+        </div>
+
+        <div class="info-results">
+            <div class="info-edit">
+                <p>Information</p>
+                <ul id="output">
+                    <li>Name</li>
+                    <li>Name</li>
+                    <li>Name</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="content container">
+                <div class="categories">
+                    <h1>About us</h1>
+                    <div class="table">
+                        <ul>
+                            <li><a href="#home">Facebook</a></li>
+                            <li><a href="#home">Instagram</a></li>
+                            <li><a href="#home">Tiktok</a></li>
+                            <li><a href="#home">Twitter</a></li>
+                            <li><a href="#home">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="categories">
+                    <h1>Social Media</h1>
+                    <div class="table">
+                        <ul>
+                            <li><a href="#home">Facebook</a></li>
+                            <li><a href="#home">Instagram</a></li>
+                            <li><a href="#home">Tiktok</a></li>
+                            <li><a href="#home">Twitter</a></li>
+                            <li><a href="#home">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="categories">
+                    <h1>Customer Service</h1>
+                    <div class="table">
+                        <ul>
+                            <li><a href="#home">Facebook</a></li>
+                            <li><a href="#home">Instagram</a></li>
+                            <li><a href="#home">Tiktok</a></li>
+                            <li><a href="#home">Twitter</a></li>
+                            <li><a href="#home">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <div class="copyright">
+            <p>2024 © All Rights Reserved</p>
+        </div>
+
+        <div class="popup">
+            <p>This is a popup!</p>
+            <button onClick="togglePopup()">close</button>
+        </div>
+
+        <div class="button-scroll">⇧</div>
+</body>
+</script>
+</html>
+
+<!-- Add name email password and message to the forum and when its submit show it under and keep refreshing the 
+    same one of its changed rather than stacking them and dont refresh the page while doing so -->
+<!-- e.preventdefault to not refresh -->
+
+<!-- Open popup, close popup, scroll(functions) -->
+<!-- Put a transition on the popup window, when the button pressed increase the opacity, and then at closing it 
+    decrease the opacity of it, so just don't make it appear and disappear instantly -->
+
+<!-- Mobile version -->
+<!-- Menu in mobile version -->
